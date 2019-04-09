@@ -1,0 +1,35 @@
+Windows:
+
+1 - Comece a instalar o Ruby, de acordo com a versão do seu Windows:
+
+http://rubyinstaller.org/downloads
+
+2 - Marque a opção "Add Ruby executables to your PATH" e prossiga a instalação.
+
+3 - Ao término da instalação, verifique se foi corretamente instalado indo no prompt/terminal e dando o comando:
+
+ruby -v
+
+Instalando
+Com o Ruby instalado, dê o comando abaixo e aguarde o término da instalação.
+
+gem install sass
+
+//RODANDO SASS
+
+1 - renomear o .css para scss
+
+2 - Ir pelo prompt até o arquivo .scss
+
+3 - Rodar o comando "sass estilos.scss:estilos.css"
+
+4 - para realizar atualizações sem precisar compilar toda hora:
+
+    sass --watch estilos.scss:estilos.css
+
+
+
+
+
+
+
