@@ -79,8 +79,8 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold; }
@@ -162,19 +162,16 @@ header .container {
 
 .itens-plano {
   padding-left: 1.2em; }
-
-.itens-plano li {
-  font-size: 1em;
-  list-style: none;
-  border-bottom: 1px solid #acacac;
-  padding: .5em;
-  width: 14.8em; }
-
-.itens-plano li:last-child {
-  border: 0; }
-
-.itens-plano span {
-  float: right; }
+  .itens-plano li {
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em; }
+    .itens-plano li:last-child {
+      border: 0; }
+  .itens-plano span {
+    float: right; }
 
 .plano button {
   background: #c24e4b;
