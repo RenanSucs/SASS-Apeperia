@@ -27,9 +27,15 @@ gem install sass
 
     sass --watch estilos.scss:estilos.css
 
+//Compass
 
+Após a instalação (basta entrar no site do compass e seguir os comandos).
 
+executar o comando "compass create" na pasta do projeto
 
+editar o arquivo "config.rb" indicando os locais dos arquivos
+
+executar o comando "compass watch estilos.scss
 
 
 

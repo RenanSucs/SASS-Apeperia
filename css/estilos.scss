@@ -1,3 +1,9 @@
+$sprite-spacing: 5px; //espaçamento do sprite
+@import "sprite/*.png"; //import da pasta sprite
+
+$plataformas-spacing: 10px;
+@import "plataformas/*.png";
+
 @import 'helpers/variaveis';
 @import 'helpers/mixins';
 
@@ -10,4 +16,5 @@
 @import 'layout/blog';
 @import 'layout/contato';
 @import 'layout/footer';
+
 
