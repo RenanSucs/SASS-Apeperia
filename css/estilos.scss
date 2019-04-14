@@ -1,7 +1,7 @@
 $sprite-spacing: 5px; //espaçamento do sprite
 @import "sprite/*.png"; //import da pasta sprite
 
-$plataformas-spacing: 10px;
+$plataformas-spacing: 20px;
 @import "plataformas/*.png";
 
 @import 'helpers/variaveis';
